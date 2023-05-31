@@ -272,28 +272,103 @@ section.about-company{
 }
 div.aboutus{
     width:45vw;
-margin:100px 15px;
+margin:100px 45px;
 line-height: 180%;
 text-align:left;
 }
 div.aboutus-img{
-margin:30px;
-}
+margin:30px;}
 
 img.img-aboutus1{
     height:250px;
     width:auto;
     margin-bottom:10px;
+    margin-left:120px;
 }
 
 img.img-aboutus2{
     height:250px;
     width:auto;
+    margin-left:120px;
 }
 
 section.realizations{
     margin:15px;
     text-align: center;
 }
+
+section.realizations h1{
+    margin:15px;
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+div.realizations-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: space-around;
+    /* margin-left:30px; */
+    /* flex-direction:column; */
+    /* width:31vw; */
+    
+
+}
+div.realizations1{
+    border:1px solid grey;
+    padding:18px;
+    margin:8px
+}
+
+div.realizations1 p{
+    padding:10px 0 22px;
+}
+
+img.img-realizations1{
+    /* width:20vw; */
+    height:auto;
+}
+
+
+
+
+/* footer */
+footer{
+    /* width:20vh; */
+    display:flex;
+    height:30vh;
+    background-color: #000;
+    width:100%;
+    }
+
+footer div.addres{
+    width:30vw;
+color:rgb(255, 255, 255)
+}
+footer div.addres h1{
+    text-align: left;
+    margin-left:25px;
+    padding:15px;
+    font-size: 1.8rem;
+}
+footer a{
+    color:#c6c6c6;
+    font-size: 1.1rem;
+    padding:0 0 10px 65px;
+    text-decoration: none;
+    line-height: 185%;
+    /* margin-bottom:10px; */
+}
+footer p{
+    color:#c6c6c6;
+    font-size: 1.1rem;
+    padding:0 0 10px 65px;
+    text-decoration: none;
+}
+footer div.social-media{
+    min-width:30vw;
+
+}
+
 
 
